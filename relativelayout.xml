@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/text1"
+        android:textSize="25dp"></TextView>
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="25dp"
+        android:layout_height="38dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="3dp"></RadioButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/text2"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/radio1"
+        android:layout_alignBottom="@+id/radio1"
+        android:textSize="30dp"></TextView>
+
+    <RadioButton
+        android:id="@+id/radio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio1"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@+id/radio1"></RadioButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/text3"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/radio2"
+        android:layout_alignBottom="@+id/radio2"
+        android:textSize="30dp"></TextView>
+
+    <RadioButton
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio2"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@+id/radio1"></RadioButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/text4"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/radio"
+        android:layout_alignBottom="@+id/radio"
+        android:textSize="30dp"></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#4E2214"
+        android:text="@string/text5"
+        android:textSize="25dp"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#4E2214"
+        android:text="@string/text6"
+        android:textSize="25dp"></Button>
+</RelativeLayout>
